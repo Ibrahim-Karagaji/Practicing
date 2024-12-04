@@ -141,3 +141,22 @@ for (let i = 0; i < titleAndDescription.length; i++) {
 }
 
 let line = document.createElement("span");
+
+line.style.position = "fixed";
+line.style.top = "10px";
+line.style.backgroundColor = "gray";
+line.style.left = "20px";
+line.style.borderRadius = "10px";
+line.style.height = "10px";
+
+function rateOfTheScroll() {
+  let totalHeight = document.documentElement.scrollHeight - window.innerHeight;
+  let currentScrollPosition = window.scrollY;
+  let scrollRate = (currentScrollPosition / totalHeight) * 100;
+  if (scrollRate <= 96) line.style.width = scrollRate + "%";
+  else line.style.width = "96.5%";
+}
+
+document.body.appendChild(line);
+
+addEventListener("scroll", rateOfTheScroll);
