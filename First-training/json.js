@@ -140,6 +140,4 @@ for (let i = 0; i < titleAndDescription.length; i++) {
   document.body.appendChild(div);
 }
 
-setInterval(function printScrolllength() {
-    console.log(window.scrollY);
-  }, 1000);
+let line = document.createElement("span");
