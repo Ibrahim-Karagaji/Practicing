@@ -8,4 +8,13 @@ body {
   max-width: 1366px;
   margin: 0px auto;
   width: 100%;
+  background-color: rgb(3, 3, 42);
+}
+
+i {
+  color: white;
+  font-size: 150px;
+  position: absolute;
+  left: 40%;
+  top: 40%;
 }
