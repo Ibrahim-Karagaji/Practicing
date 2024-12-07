@@ -12,9 +12,13 @@ body {
 }
 
 i {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 150px;
   position: absolute;
   left: 40%;
   top: 40%;
+}
+
+.red {
+  color: red;
 }
