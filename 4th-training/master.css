@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+  max-width: 1366px;
+  margin: 0px auto;
+  width: 100%;
+  background-color: cyan;
+  transition: 0.3s;
+}
