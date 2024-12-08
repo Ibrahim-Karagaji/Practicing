@@ -38,6 +38,4 @@ function deleteWord(word, number) {
   }, 350);
 }
 
-let n = 0;
 
-peintWord(n);
