@@ -57,4 +57,25 @@ div i {
   top: 20px;
   left: 81%;
   opacity: 0%;
+  transition: 1.5s;
+}
+
+video {
+  position: absolute;
+  z-index: 31;
+  top: 135px;
+  left: 30%;
+  transition: 3s;
+  width: 500px;
+  height: 300px;
+}
+@media (max-width: 1000px) {
+  video {
+    left: 25%;
+  }
+}
+@media (max-width: 800px) {
+  video {
+    left: 17%;
+  }
 }
