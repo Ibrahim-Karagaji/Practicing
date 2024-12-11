@@ -9,3 +9,10 @@ play.onclick = function () {
   calnce.style.opacity = "100%";
   video.src = "trailer.mp4";
 };
+
+calnce.onclick = function () {
+  backGroundIMage.style.opacity = "100%";
+  play.style.opacity = "100%";
+  calnce.style.opacity = "0%";
+  video.src = "";
+};
