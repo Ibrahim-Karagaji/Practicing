@@ -1,3 +1,17 @@
+@keyframes remove-image {
+  0% {
+    transform: translate(0px, 20px);
+  }
+
+  50% {
+    transform: translate(0px, -20px);
+  }
+
+  100% {
+    transform: translate(0px, 20px);
+  }
+}
+
 * {
   padding: 0px;
   margin: 0px;
@@ -7,4 +21,29 @@ body {
   width: 100%;
   max-width: 1366px;
   margin: 0px auto;
+}
+
+div {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: 100vh;
+}
+
+img:last-of-type {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  z-index: 1;
+  left: 80%;
+  top: 75%;
+  animation-name: remove-image ;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
