@@ -7,4 +7,5 @@ play.onclick = function () {
   backGroundIMage.style.opacity = "0%";
   play.style.opacity = "0%";
   calnce.style.opacity = "100%";
+  video.src = "trailer.mp4";
 };
