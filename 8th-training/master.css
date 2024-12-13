@@ -8,4 +8,34 @@ body {
   width: 100%;
   margin: 0px auto;
   font-family: sans-serif;
+  background-color: cyan;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  font-size: 30px;
+  margin: 300px auto 0px;
+  width: fit-content;
+  box-shadow: 0px 0px 10px -5px black;
+  background-color: #eee;
+  padding: 5px;
+}
+
+i {
+  padding: 5px 10px;
+  box-shadow: 0px 0px 9px -6px black;
+  transition: 0.4s;
+}
+
+p {
+  padding: 10px 15px;
+  font-size: 20px;
+  transition: .3s;
+  opacity: 0%;
+}
+
+p:hover {
+background-color: rgba(128, 128, 128, 0.166);
 }
